@@ -1,4 +1,4 @@
-## About This Repostiroy
+## Get Started with Laravel Broadcasting with Echo in under 5 minutes
 This repository is a scaffold for Laravel Broadcasting, use this starter repository to get started quickly with Laravel broadcasting. 
 
 Laravel Broadcasting is automatically setup using the PieSocket driver.
