@@ -7,7 +7,6 @@ To setup your API keys and learn more about using this scaffold, follow this gui
 
 We keep this repository updated wit the Latest Laravel Version.
 
-## Following is the original readme from Laravel's official repository
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
