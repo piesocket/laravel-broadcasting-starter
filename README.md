@@ -1,9 +1,8 @@
 ## Get Started with Laravel Broadcasting using Echo in under 5 minutes
 This repository is a scaffold for Laravel Broadcasting, use this starter repository to get started quickly with Laravel broadcasting. 
 
-Laravel Broadcasting is automatically setup using the PieSocket driver.
 
-To setup your API keys and learn more about using this scaffold, see:  
+To setup your API keys and learn more about using this scaffold, follow this guide:  
 [Laravel Broadcasting With Echo - The Easy Way](https://www.piesocket.com/blog/laravel-broadcasting)
 
 We keep this repository updated wit the Latest Laravel Version.
