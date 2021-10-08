@@ -26,3 +26,23 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+import Echo from 'laravel-echo';
+
+window.PieSocket = require('piesocket-js');
+
+window.Echo = new Echo({
+    broadcaster: 'piesocket',
+    key: process.env.MIX_PIESOCKET_API_KEY,
+    cluster: process.env.MIX_PIESOCKET_CLUSTER_ID,
+    forceAuth: false
+});
+
+window.Echo.channel(`orders`)
+    .subscribed(() => {
+        console.log("Echo connected to PieSocket channel!");
+    })
+    .listen("NewOrder", (data) => {
+        alert("New Order Received");
+        console.log("New Order Data", data);
+    });

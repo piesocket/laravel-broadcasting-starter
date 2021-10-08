@@ -41,6 +41,14 @@ return [
             ],
         ],
 
+        'piesocket' => [
+            'driver' => 'piesocket',
+            'key' => env('PIESOCKET_API_KEY'),
+            'secret' => env('PIESOCKET_API_SECRET'),
+            'cluster_id' => env('PIESOCKET_CLUSTER_ID'),
+            'use_auth' => env('PIESOCKET_CLUSTER_ID'),
+        ],
+
         'ably' => [
             'driver' => 'ably',
             'key' => env('ABLY_KEY'),
