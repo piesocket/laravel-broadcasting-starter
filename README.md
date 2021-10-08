@@ -23,9 +23,11 @@ MIX_PIESOCKET_API_KEY="${PIESOCKET_API_KEY}"
 MIX_PIESOCKET_CLUSTER_ID="${PIESOCKET_CLUSTER_ID}"
 ```
 
-That's it! Your Laravel project is ready to use Broadcasting feature.
 
-Example code: [Laravel Broadcasting with Echo](https://www.piesocket.com/blog/laravel-echo-broadcasting/)
+
+## Example code
+We have written a easy to follow guide on how to use Laravel Broadcasting to create real-time experiences.
+Read here: [Laravel Broadcasting with Echo](https://www.piesocket.com/blog/laravel-echo-broadcasting/)
 
 ## Laravel
 We keep this repository updated wit the Latest Laravel Version.
