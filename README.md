@@ -43,8 +43,7 @@ If you run into issues with the above command, try to re-compile Laravel Echo
 cd node_modules/laravel-echo && npm i
 ```
 
-
-Start Laravel Server
+Generate application key and start Laravel Server
 ```
 php artisan serve
 ```
