@@ -1,4 +1,4 @@
-## Laravel Broadcasting with Echo in under 5 minutes
+## Laravel Broadcasting With Echo In Under 5 Minutes
 This repository is a scaffold for Laravel Broadcasting, use this starter repository to get started quickly with Laravel broadcasting. 
 
 ## Setup
@@ -14,19 +14,57 @@ cp .env.example .env
 
 Get your API keys from [PieSocket](https://www.piesocket.com) and configure in the `.env` file.
 ```
-PIESOCKET_API_KEY=TzNcYja1QZTpHupXuZ8TSpETPUMkP7nEli3D38lN
-PIESOCKET_API_SECRET=hk33wQ7z8d9ILEm3epGFIaJLD3z4NKqj
-PIESOCKET_CLUSTER_ID=s1983.nyc3
+PIESOCKET_API_KEY=
+PIESOCKET_API_SECRET=
+PIESOCKET_CLUSTER_ID=
 PIESOCKET_FORCE_AUTH=false 
 
 MIX_PIESOCKET_API_KEY="${PIESOCKET_API_KEY}"
 MIX_PIESOCKET_CLUSTER_ID="${PIESOCKET_CLUSTER_ID}"
 ```
 
+Install Composer Depedencies
+```
+composer install
+```
 
+Install Node Dependencies
+```
+npm install
+```
+
+Compile Laravel Echo
+```
+cd node_modules/laravel-echo && npm i
+```
+
+Compile Javascript Code
+```
+npm run dev
+```
+
+Start Laravel Server
+```
+php artisan serve
+```
+
+## Testing 
+We have created an artisan script for you to test the integration.
+
+Open `http://localhost:8000` in your browser.
+
+From your terminal, run
+```
+php artisan dispatch:order
+```
+
+You should see an alert in your browser with published event data.
+
+Refer to the  [this tutorial]((https://www.piesocket.com/blog/laravel-echo-broadcasting/)) to learn more.
 
 ## Example code
-We have written a easy to follow guide on how to use Laravel Broadcasting to create real-time experiences.
+We have written an easy to follow guide on how to use Laravel Broadcasting to create real-time experiences.
+
 Read here: [Laravel Broadcasting with Echo](https://www.piesocket.com/blog/laravel-echo-broadcasting/)
 
 ## Laravel
