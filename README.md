@@ -33,15 +33,16 @@ Install Node Dependencies
 npm install
 ```
 
-Compile Laravel Echo
-```
-cd node_modules/laravel-echo && npm i
-```
-
 Compile Javascript Code
 ```
 npm run dev
 ```
+
+If you run into issues with the above command, try to re-compile Laravel Echo
+```
+cd node_modules/laravel-echo && npm i
+```
+
 
 Start Laravel Server
 ```
@@ -55,7 +56,7 @@ Open `http://localhost:8000` in your browser.
 
 From your terminal, run
 ```
-php artisan dispatch:order
+php artisan dispatch:neworder
 ```
 
 You should see an alert in your browser with published event data.

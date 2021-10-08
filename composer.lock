@@ -2235,16 +2235,16 @@
         },
         {
             "name": "piesocket/piesocket-php",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piesocket/piesocket-php.git",
-                "reference": "8e788bf0df1d163aab7eb127d1c9ccf616cbc713"
+                "reference": "42b9bee0ee21416ce06e2d7e9a13ab3882611a7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piesocket/piesocket-php/zipball/8e788bf0df1d163aab7eb127d1c9ccf616cbc713",
-                "reference": "8e788bf0df1d163aab7eb127d1c9ccf616cbc713",
+                "url": "https://api.github.com/repos/piesocket/piesocket-php/zipball/42b9bee0ee21416ce06e2d7e9a13ab3882611a7d",
+                "reference": "42b9bee0ee21416ce06e2d7e9a13ab3882611a7d",
                 "shasum": ""
             },
             "require": {
@@ -2273,9 +2273,9 @@
             "description": "PieSocket PHP REST Client",
             "support": {
                 "issues": "https://github.com/piesocket/piesocket-php/issues",
-                "source": "https://github.com/piesocket/piesocket-php/tree/v1.1.0"
+                "source": "https://github.com/piesocket/piesocket-php/tree/v1.1.1"
             },
-            "time": "2021-10-08T06:50:48+00:00"
+            "time": "2021-10-08T07:56:49+00:00"
         },
         {
             "name": "psr/container",
