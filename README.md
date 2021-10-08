@@ -25,6 +25,6 @@ MIX_PIESOCKET_CLUSTER_ID="${PIESOCKET_CLUSTER_ID}"
 
 That's it! Your Laravel project is ready to use Broadcasting feature.
 
-Example code: [Laravel Broadcasting with Echo](https://www.piesocket.com/blog/laravel-broadcasting)
+Example code: [Laravel Broadcasting with Echo](https://www.piesocket.com/blog/laravel-echo-broadcasting/)
 ## Laravel
 We keep this repository updated wit the Latest Laravel Version.
