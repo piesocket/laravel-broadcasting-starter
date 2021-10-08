@@ -1,4 +1,4 @@
-## Get Started with Laravel Broadcasting using Echo in under 5 minutes
+## Laravel Broadcasting with Echo in under 5 minutes
 This repository is a scaffold for Laravel Broadcasting, use this starter repository to get started quickly with Laravel broadcasting. 
 
 ## Setup
